@@ -1,13 +1,22 @@
 #include "main.h"
 
 /**
- * add - Adds two intengers.
- * @num1: The first interger to be added.
- * @num2: The second interger to be added.
- *
- * Return: The result of the addition.
+ * print_to_98 - Prints all natural numbers from input to 98,
+ * in order seperated by a space.
+ * @n: The number to begin counting at.
  */
-int add(int num1, int num2)
+void print_to_98(int n)
 {
-	return (num1 +num2);
+	if (n >= 98)
+	{
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
+	}
+	else
+	{
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
+	}
 }
