@@ -1,5 +1,5 @@
 #include "main.h"
-#inlude "unistd.h"
+#include "unistd.h"
 
 /**
  *main - print putchar
