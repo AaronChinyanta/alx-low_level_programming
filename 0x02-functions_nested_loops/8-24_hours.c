@@ -1,12 +1,11 @@
 #include "main.h"
 /**
  * jack_bauer - func that prints every minute of the day
- * from 00:00 to 23:59 
+ * from 00:00 to 23:59; 
  * and resets mins
  * Return: 0
  */
 void jack_bauer(void)
-
 {
 	int hours = 0;
 	int minutes = 0;
@@ -31,4 +30,3 @@ void jack_bauer(void)
 		minutes = 0;
 	}
 }
-
