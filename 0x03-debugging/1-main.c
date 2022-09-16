@@ -1,4 +1,5 @@
-##include <stdio.h>
+#include <stdio.h>
+#include "main.h"
 /**
  * main - cauded an infinite loop
  *
@@ -10,15 +11,16 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 
-	i = 0
+	i = 0;
 
-		/*
-		 * while (i < 10)
-		 * {
-		 * infinite loop - No Increase of variables
-		 * putchar(i);
-		 }
-		 */
-		printf("Infinite loop avoided! \\o/n");
+	/*
+	 * while (i < 10)
+	 * {
+	 * infinite loop - No increase of variables
+	 * putchar(i);
+	 * }
+	 */
+	printf("Infinite loop avoided! \\o/\n");
 	return (0);
+
 }
