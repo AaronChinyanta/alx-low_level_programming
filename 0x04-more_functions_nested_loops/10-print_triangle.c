@@ -3,7 +3,7 @@
 
 /**
  * print_triangle - prints a triangle
- * @sizsize parameter of the triangle
+ * @size:size parameter of the triangle
  * Return: returns nothing
  */
 
