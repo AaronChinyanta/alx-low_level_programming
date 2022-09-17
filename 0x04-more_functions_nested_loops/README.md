@@ -9,3 +9,4 @@ Write a function that draws a diagonal line on the terminal
 Write a function that prints a square, followed by a new line
 Write a function that prints a triangle, followed by a new line
 The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081
+Write a function that prints an integer
