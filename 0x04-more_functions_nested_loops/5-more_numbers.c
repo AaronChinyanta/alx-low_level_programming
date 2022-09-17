@@ -6,22 +6,23 @@
  *
  * Return: returns nothing
  */
-
 void more_numbers(void)
-
 {
-	int c, x;
+	int n1, n2;
 
-	for (c = 0; c < 10; c++)
+	for (n1 = 0; n1 < 10; n1++)
 	{
-		for (x = 0; x <= 14; x++)
+		for (n2 = 0; n2 <= 14; n2++)
 		{
-			if (x > 9)
+			if (n2 > 9)
 			{
-			       _putchar((x / 10) + 48);
+				putchar((n2 / 10) + '0');
 			}
-	 _putchar((x % 10) + 48);
+
+			putchar((n2 % 10) + '0');
 		}
-       _putchar(10);
+
+		putchar(10);
 	}
-}	
+
+}
