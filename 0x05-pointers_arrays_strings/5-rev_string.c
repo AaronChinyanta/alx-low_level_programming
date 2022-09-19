@@ -19,7 +19,7 @@ void rev_string(char *s)
 		c++;
 	}
 
-	for (k = 1; k < c; k++)
+	for (k = i; k < c; k++)
 	{
 		a++;
 	}
