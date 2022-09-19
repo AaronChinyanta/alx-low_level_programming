@@ -6,3 +6,4 @@ Write a function that prints a string, in reverse, followed by a new line
 Write a function that prints every other character of a string, starting with the first character, followed by a new line
 Write a function that prints n elements of an array of integers, followed by a new line
 Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
+Write a function that reverses a string
