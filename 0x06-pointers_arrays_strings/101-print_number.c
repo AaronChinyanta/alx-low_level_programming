@@ -19,12 +19,16 @@ void print_number(int n)
 	{
 		m = n;
 	}
+
 	d = m;
+
 	count = 1;
 
 	while (d > 9)
+
 	{
 		d /= 10;
+
 		count *= 10;
 	}
 
