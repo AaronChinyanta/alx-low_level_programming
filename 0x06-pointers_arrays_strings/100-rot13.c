@@ -2,13 +2,12 @@
 #include <stdio.h>
 
 /**
- * rot13 - encodes a string into rot13
- * @s: string to encode
- *
- * Return: address of s
+ * rot13 - encodes a string using rot13
+ * @s: input string.
+ * Return: the pointer to dest
  */
 
-char *rot13(char *s)
+char *rot13(char *)
 {
 	int count = 0, i;
 
