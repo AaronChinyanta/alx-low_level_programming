@@ -17,9 +17,9 @@ int _strlen(char *s)
 }
 
 /**
- * string_toupper - changes all lowercases letters of a string to uppercase
- * @str: parameter
- * Return: returns a character
+ * cap_string - function that capitalize first character of a word
+ * @str: string to capitalize
+ * Return: returns the capitalized string
  */
 
 char *cap_string(char *str)
@@ -32,6 +32,7 @@ char *cap_string(char *str)
 			index++;
 
 		if (str[index - 1] == ' ' ||
+
 				str[index - 1] == '\t' ||
 				str[index - 1] == '\n' ||
 				str[index - 1] == ',' ||
