@@ -7,29 +7,30 @@
  * Return: returns a character
  */
 
-char *string_toupper(char *str)
+char *cap_string(char *s)
 {
-	int index = 0;
+	int i = 0, j;
 
-	while (str[++index])
+	char a[] = "\t\n,;.!?\" () {}";
+
+	while (*(s + i))
 	{
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-			index++;
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+		{
+			if (i == 0)
 
-		if (str[index - 1] == ' ' \\
-				str[index - 1] == '\t' ||
-				str[index - 1] == '\n' ||
-				str[index - 1] == ',' ||
-				str[index - 1] == ':' ||
-				str[index - 1] == '.' ||
-				str[index - 1] == '!' ||
-				str[index - 1] == '?' ||
-				str[index - 1] == '"' ||
-				str[index - 1] == '(' ||
-				str[index - 1] == ')' ||
-				str[index - 1] == '{' ||
-				str[index - 1] == '}')
-			str[index] -= 32;
+				*(s + i) -= 'a' - 'A';
+			else
+			{
+				for (j = 0; j <= 12; j++)
+				{
+					if (a[j] == *(s + i - 1))
+
+						*(s + i) -= 'a' - 'A';
+				}
+			}
+		}
+		i++;
 	}
-	index (str);
+	return (s);
 }
