@@ -15,9 +15,9 @@ char *_strstr(char *haystack, char *needle)
 
 	char *c;
 
-	c = _strstr(s, f);
+	c = _strstr(s, 'f');
 
-	if (c != f);
+	if (c != f)
 	{
 		return (NULL);
 	}
