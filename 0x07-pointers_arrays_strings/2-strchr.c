@@ -3,7 +3,7 @@
 
 /**
  * _strchr - locates a character
- * @s: the string wee look thru
+ * @s: the string we look through
  * @c: the character we look for
  *
  * Return: a pointer to the char or NULL
@@ -20,9 +20,12 @@ char *_strchr(char *s, char c)
 		if(*s == c)
 			return (s);
 	}
+
 	if (*s == c)
+
 	{
 		return (s);
 	}
+
 	return (NULL);
 }
