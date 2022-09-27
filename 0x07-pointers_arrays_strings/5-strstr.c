@@ -9,21 +9,21 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	char *s = haystack, needle;
+	char *string1 = "needle in a haystack";
 
-	char *f = needle;
+	char 'string2 = "haystack";
 
-	char *c;
+	char *result;
 
-	c = _strstr(s, f);
+	result = strstr(string1, string2);
 
-	if (c != f)
+	if (result == string1)
+	{
+		return (string2);
+	}
+	if (result != string1)
 	{
 		return (NULL);
 	}
-	if (c == f)
-	{
-		return (s);
-	}
-	return (0);
 }
+
