@@ -9,13 +9,13 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	char *s = "haystack, needle";
+	char *s = haystack, needle;
 
-	char *f = "needle";
+	char *f = needle;
 
 	char *c;
 
-	c = _strstr(s, 'f');
+	c = _strstr(s, f);
 
 	if (c != f)
 	{
