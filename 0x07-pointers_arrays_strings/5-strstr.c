@@ -11,19 +11,11 @@ char *_strstr(char *haystack, char *needle)
 {
 	char *string1 = "needle in a haystack";
 
-	char 'string2 = "haystack";
+	char *string2 = _strstr(string1, 'needle');
 
-	char *result;
-
-	result = strstr(string1, string2);
-
-	if (result == string1)
+	if (string2 != NULL)
 	{
-		return (string2);
+		printf("%s\n", string2);
 	}
-	if (result != string1)
-	{
-		return (NULL);
-	}
+	return (0);
 }
-
