@@ -1,1 +1,1 @@
-Write a program that prints all the numbers of base 16 in lowercase, followed by a new line
+Write a function that prints a string, followed by a new line
