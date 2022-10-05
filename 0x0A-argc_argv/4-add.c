@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 			if (isdigit (argv[i][j] == 0))
 
 			{
-				puts ("Error");
+				puts("Error");
 
 				return (1);
 			}
