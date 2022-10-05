@@ -20,8 +20,6 @@ int main (int argc, char *argv[])
 		/*While - Print each arguments*/
 
 		while (count < argc)
+
 		{
 			printf("%s\n", argv[count]);
-		}
-	}
-}
