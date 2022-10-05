@@ -6,9 +6,9 @@
 /**
  * main - adds numbers
  * @argc: number of arguments passed to the function
- * @argv: argument vector of the pointers to trings
+ * @argv: argument vector of the pointers to strings
  *
- * Return: 0 if no errors. else 1
+ * Return: 0 if no errors, else 1
  */
 
 int main(int argc, char *argv[])
@@ -16,10 +16,13 @@ int main(int argc, char *argv[])
 	int a = 0, i, j;
 
 	for (i = 1; i < argc; i++)
+
 	{
 		for (j = 0; argv[i] [j]; j++)
+
 		{
-			if (isdigit (argv[i] [j] == 0))
+			if (isdigit(argv[i] [j] == 0))
+
 			{
 				puts("Error");
 
@@ -29,10 +32,11 @@ int main(int argc, char *argv[])
 	}
 
 	for (i = 1; i < argc; i++)
+
 	{
 		a += atoi(argv[i]);
 	}
 
-	printf("%d\n" , a);
+	printf("%d\n", a);
 	return (0);
 }
