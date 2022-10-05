@@ -16,7 +16,6 @@ int main(int argc, char *argv[])
 	int a = 0, i, j;
 
 	for (i = 1; i < argc; i++)
-
 	{
 		for (j = 0; argv[i][j]; j++)
 
@@ -34,10 +33,9 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 
 	{
-		a += atoi(argv[i]);
+		a += atoi (argv[i]);
 	}
 
 	printf("%d\n", a);
-
 	return (0);
 }
