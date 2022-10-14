@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for holberton school stduents.
+ * main - check the code for holberton school students.
  * @argc: argument count.
  * @argv: argument vector.
  *
