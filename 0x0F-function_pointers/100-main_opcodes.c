@@ -11,7 +11,6 @@
 int main(int argc, char *argv[])
 {
 	char *opc = (char *) main;
-
 	int i, nbytes;
 
 	if (argc != 2)
