@@ -6,10 +6,12 @@
  * @head: sum of all the data 
  */
 int sum_listint(listint_t *head)
+
 {
 	int sum;
 
 	sum = 0;
+
 	while (head != NULL)
 	{
 		sum += head->n;
@@ -18,4 +20,5 @@ int sum_listint(listint_t *head)
 	}
 
 	return (sum);
+
 }
