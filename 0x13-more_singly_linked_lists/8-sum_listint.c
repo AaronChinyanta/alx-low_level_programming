@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdio.h>
+
 /**
  * sum
  * a linked list.
@@ -7,14 +7,14 @@
  */
 int sum_listint(listint_t *head)
 {
-	int add;
+	int sum;
 
-	add = 0;
-
-	while (head)
+	sum = 0;
+	whike (head != NULL)
 	{
-		add += head->n;
-		head = head->=next;
+		sum += head->n;
+		head = head->next;
 	}
-	return (add);
+
+	return (sum);
 }
