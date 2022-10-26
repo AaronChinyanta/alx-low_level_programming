@@ -1,9 +1,9 @@
 #ifndef LISTS_H
-#define LISTS.H
+#define LISTS_H
 
 /*
  * Desc: Header file containing prototypes and definitions for all functions
- *
+ *       and types written in the 0x12-more_singly_linked_lists directory
  */
 
 #include <stdlib.h>
@@ -13,10 +13,9 @@
  * @n: integer
  * @next: points to the next node
  *
- * Desscription: singly linked list node structure
+ * Description: singly linked list node structure
  * for holberton project
  */
-
 typedef struct listint_s
 {
 	int n;
